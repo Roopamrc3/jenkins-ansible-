@@ -1,8 +1,8 @@
 VAGRANTFILE_API_VERSION = "2"
-box      = 'ubuntu/trusty64'
+box      = 'jenkins/jenkins'
 url      = 'https://atlas.hashicorp.com/ubuntu/boxes/trusty64'
 hostname = 'jenkins'
-ip       = '192.168.5.99'
+ip       = '192.168.58.2'
 ram      = '512'
 
 Vagrant::Config.run do |config|
